@@ -1,33 +1,37 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import Summary from "./components/Summary";
+import Skills from "./components/Skills";
+import Education from "./components/Education";
+import Hobbies from "./components/Hobbies";
+import Projects from "./components/Projects";
+import NavBar from "./components/NavBar";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  const [isDark, setIsDark] = useState(false);
+  const [currentScreen, setCurrentScreen] = useState(<Summary />);
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="sh-screen w-screen">
+      {/* Navbar */}
+      <NavBar setCurrentScreen={setCurrentScreen} />
+      {/* Main */}
+      <div className="flex flex-col items-center justify-center">
+        <section id="Summary" className="h-auto bg-cyan-600">
+          <Summary />
+        </section>
+        <section id="Skills" className="w-screen h-screen bg-cyan-500">
+          <Skills />
+        </section>
+        <section id="Education" className="w-screen h-screen bg-cyan-400">
+          <Education />
+        </section>
+        <section id="Projects" className="w-screen h-screen bg-cyan-300">
+          <Projects />
+        </section>
+        <section id="Others" className="w-screen h-screen bg-cyan-300">
+          <Hobbies />
+        </section>
       </div>
-      <h1>Vite + React</h1>
-      <div className="bg-red-100">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </div>
   );
 }
