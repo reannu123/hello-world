@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+/* For screens smaller than 640px */
+@media (max-width: 666px) {
+  html {
+    scroll-padding-top: 9rem;
+  }
+}
+
+/* For screens larger than 640px */
+@media (min-width: 667px) and( max-width: 1004px) {
+  html {
+    scroll-padding-top: 6.5rem;
+  }
+}
+
+@media (min-width: 1005px) {
+  html {
+    scroll-padding-top: 4.5rem;
+  }
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
