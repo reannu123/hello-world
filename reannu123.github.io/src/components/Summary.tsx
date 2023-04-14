@@ -1,6 +1,8 @@
 import React from "react";
 import profile from "../assets/profile-square.jpg";
 import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+// react icon for gmail
 
 function Summary() {
   return (
@@ -44,7 +46,7 @@ function Summary() {
             <FaLinkedin className="text-3xl text-teal-500 hover:text-opacity-50 transition-all" />
           </a>
           <a href="mailto:reannumon123@gmail.com">
-            <FaEnvelope className="text-3xl text-teal-400 hover:text-opacity-50 transition-all" />
+            <SiGmail className="text-3xl text-teal-400 hover:text-opacity-50 transition-all" />
           </a>
         </div>
       </div>
@@ -72,7 +74,7 @@ function Summary() {
             <FaLinkedin className="text-3xl text-teal-500 hover:text-opacity-50 transition-all" />
           </a>
           <a href="mailto:reannumon123@gmail.com">
-            <FaEnvelope className="text-3xl text-teal-400 hover:text-opacity-50 transition-all" />
+            <SiGmail className="text-3xl text-teal-400 hover:text-opacity-50 transition-all" />
           </a>
         </div>
       </div>
