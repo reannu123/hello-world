@@ -11,18 +11,18 @@ import useDarkMode from "./hooks/useDarkMode";
 function App() {
   const [darkEnabled, setDarkEnabled] = useDarkMode();
   return (
-    <div className="sh-screen w-full dark:bg-gray-950 transition-all duration-300">
+    <div className="sh-screen w-full h-screen dark:bg-gray-950 transition-all duration-300">
       {/* Navbar */}
       <NavBar setDarkEnabled={setDarkEnabled} darkEnabled={darkEnabled} />
       {/* Main */}
       <div className="flex flex-col items-center justify-center dark:text-gray-100">
         <section
           id="Summary"
-          className=" w-full min-h-[85vh] mb-[10vh] flex justify-center items-center text-center"
+          className=" w-full min-h-[85vh]  flex justify-center items-center text-center"
         >
           <Summary />
         </section>
-        <section
+        {/* <section
           id="Skills"
           className="w-full min-h-[90vh]  flex-col justify-center items-center text-center"
         >
@@ -45,7 +45,7 @@ function App() {
           className="w-full min-h-[90vh] mt-[10vh] flex-col justify-center items-center text-center"
         >
           <Hobbies />
-        </section>
+        </section> */}
       </div>
     </div>
   );

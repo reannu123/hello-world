@@ -28,7 +28,7 @@ function NavBar(props: any) {
 
         <div className=" hidden w-full md:block md:w-auto " id="navbar-default">
           <ul className="font-medium flex flex-wrap  items-center justify-between mx-8 text-sm lg:text-xl lg:space-x-3">
-            <li>
+            {/* <li>
               <a href="#Summary">
                 <div className="block py-2  px-2 rounded  bg-gradient-to-l from-teal-300 via-teal-500 to-teal-600  bg-size-200 hover:bg-right hover:text-gray-900  hover:cursor-pointer  dark:text-gray-100 dark:hover:text-gray-900 transition-all ">
                   Summary
@@ -54,8 +54,8 @@ function NavBar(props: any) {
                 <div className="block py-2  px-2  rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer  dark:text-gray-100 transition dark:hover:text-gray-900 ">
                   Projects
                 </div>
-              </a>
-            </li>
+              </a> */}
+            {/* </li> */}
             {/* <li>
               <a href="#Others">
                 <div className="block py-2 px-2 mx-1 rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer hover:transition-all">
