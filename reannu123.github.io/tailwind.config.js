@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       backgroundSize: {
-        "size-200": "300% 300%",
+        "size-200": "200% 200%",
       },
       fontFamily: {
         Comfortaa: ["Comfortaa", "cursive"],

@@ -10,7 +10,7 @@ import { FaMoon, FaSun } from "react-icons/fa";
 
 function NavBar(props: any) {
   return (
-    <header className=" sticky bg-gray-100 dark:bg-gray-900 top-0  dark:text-gray-50 flex select-none h-16 md:h-24 dark:transition-all">
+    <header className=" sticky bg-gray-100 dark:bg-gray-900 top-0  flex select-none h-16 md:h-[10vh] duration-300">
       <nav className="flex-wrap w-full  flex items-center justify-between p-2 ">
         <a href="https://github.com/reannu123">
           <div className=" flex flex-row space-x-4 items-center justify-center mx-4 whitespace-nowrap">
@@ -20,7 +20,7 @@ function NavBar(props: any) {
                 className="min-h-[30px] min-w-[30px] max-h-8 max-w-8 rounded-full"
               />
             </div>
-            <span className="font-medium font-Comfortaa text-base md:text-2xl w-auto ">
+            <span className="font-medium font-Comfortaa text-base md:text-2xl w-auto dark:text-gray-100">
               Reannu Instrella
             </span>
           </div>
@@ -30,28 +30,28 @@ function NavBar(props: any) {
           <ul className="font-medium flex flex-wrap  items-center justify-between mx-8 text-sm lg:text-xl lg:space-x-3">
             <li>
               <a href="#Summary">
-                <div className="block py-2  px-2 rounded  bg-gradient-to-l from-teal-300 via-teal-500 to-teal-600  bg-size-200 hover:bg-right hover:text-gray-900  hover:cursor-pointer hover:transition-all">
+                <div className="block py-2  px-2 rounded  bg-gradient-to-l from-teal-300 via-teal-500 to-teal-600  bg-size-200 hover:bg-right hover:text-gray-900  hover:cursor-pointer  dark:text-gray-100 dark:hover:text-gray-900 transition-all ">
                   Summary
                 </div>
               </a>
             </li>
             <li>
               <a href="#Skills">
-                <div className="block py-2  px-2  rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer hover:transition-all">
+                <div className="block py-2  px-2  rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer dark:text-gray-100 transition dark:hover:text-gray-900 ">
                   Skills
                 </div>
               </a>
             </li>
             <li>
               <a href="#Education">
-                <div className="block py-2  px-2  rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer hover:transition-all">
+                <div className="block py-2  px-2  rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer  dark:text-gray-100 transition dark:hover:text-gray-900 ">
                   Education
                 </div>
               </a>
             </li>
             <li>
               <a href="#Projects">
-                <div className="block py-2  px-2  rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer hover:transition-all">
+                <div className="block py-2  px-2  rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer  dark:text-gray-100 transition dark:hover:text-gray-900 ">
                   Projects
                 </div>
               </a>
