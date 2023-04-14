@@ -16,19 +16,34 @@ function App() {
       <NavBar setDarkEnabled={setDarkEnabled} darkEnabled={darkEnabled} />
       {/* Main */}
       <div className="flex flex-col items-center justify-center">
-        <section id="Summary" className="scroll-pt-36 w-full min-h-screen ">
+        <section
+          id="Summary"
+          className=" w-full min-h-[90vh] flex justify-center items-center text-center"
+        >
           <Summary />
         </section>
-        <section id="Skills" className="w-full min-h-screen  text-center">
+        <section
+          id="Skills"
+          className="w-full min-h-[90vh] my-10 flex-col justify-center items-center text-center"
+        >
           <Skills />
         </section>
-        <section id="Education" className="w-full min-h-screen   text-center">
+        <section
+          id="Education"
+          className="w-full min-h-[90vh]  my-10 flex-col justify-center items-center text-center"
+        >
           <Education />
         </section>
-        <section id="Projects" className="w-full min-h-screen   text-center">
+        <section
+          id="Projects"
+          className="w-full min-h-[90vh]  my-10 flex-col justify-center items-center text-center"
+        >
           <Projects />
         </section>
-        <section id="Others" className="w-full min-h-screen  text-center">
+        <section
+          id="Others"
+          className="w-full min-h-[90vh] my-10 flex-col justify-center items-center text-center"
+        >
           <Hobbies />
         </section>
       </div>

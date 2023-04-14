@@ -10,8 +10,8 @@ import { FaMoon, FaSun } from "react-icons/fa";
 
 function NavBar(props: any) {
   return (
-    <header className=" bg-gray-100 dark:bg-gray-900 top-0  dark:text-gray-50 flex select-none h-16 md:h-24 dark:transition-all">
-      <nav className="flex-wrap w-full  flex items-center justify-between p-4 ">
+    <header className=" sticky bg-gray-100 dark:bg-gray-900 top-0  dark:text-gray-50 flex select-none h-16 md:h-24 dark:transition-all">
+      <nav className="flex-wrap w-full  flex items-center justify-between p-2 ">
         <a href="https://github.com/reannu123">
           <div className=" flex flex-row space-x-4 items-center justify-center mx-4 whitespace-nowrap">
             <div className="mx-auto h-10 w-10 bg-teal-500 bg-opacity-30 dark:bg-opacity-100 rounded-full flex items-center justify-center">
@@ -27,52 +27,52 @@ function NavBar(props: any) {
         </a>
 
         <div className=" hidden w-full md:block md:w-auto " id="navbar-default">
-          <ul className="font-medium flex flex-wrap  items-center justify-between mx-8 mt-0 text-sm">
+          <ul className="font-medium flex flex-wrap  items-center justify-between mx-8 text-sm lg:text-xl lg:space-x-3">
             <li>
               <a href="#Summary">
-                <div className="block py-2  px-2 mx-1 rounded  bg-gradient-to-l from-teal-300 via-teal-500 to-teal-600  bg-size-200 hover:bg-right hover:text-gray-900  hover:cursor-pointer hover:transition-all">
+                <div className="block py-2  px-2 rounded  bg-gradient-to-l from-teal-300 via-teal-500 to-teal-600  bg-size-200 hover:bg-right hover:text-gray-900  hover:cursor-pointer hover:transition-all">
                   Summary
                 </div>
               </a>
             </li>
             <li>
               <a href="#Skills">
-                <div className="block py-2  px-2 mx-1 rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer hover:transition-all">
+                <div className="block py-2  px-2  rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer hover:transition-all">
                   Skills
                 </div>
               </a>
             </li>
             <li>
               <a href="#Education">
-                <div className="block py-2  px-2 mx-1 rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer hover:transition-all">
+                <div className="block py-2  px-2  rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer hover:transition-all">
                   Education
                 </div>
               </a>
             </li>
             <li>
               <a href="#Projects">
-                <div className="block py-2  px-2 mx-1 rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer hover:transition-all">
+                <div className="block py-2  px-2  rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer hover:transition-all">
                   Projects
                 </div>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#Others">
                 <div className="block py-2 px-2 mx-1 rounded hover:bg-teal-500  hover:text-gray-700 hover:cursor-pointer hover:transition-all">
                   Others
                 </div>
               </a>
-            </li>
+            </li> */}
             <li>
               <div className="ml-5">
                 {props.darkEnabled ? (
                   <FaSun
-                    className="text-xl md:text-2xl text-yellow-100  cursor-pointer"
+                    className="text-xl md:text-2xl text-yellow-100  cursor-pointer hover:text-orange-300 transition"
                     onClick={() => props.setDarkEnabled(false)}
                   />
                 ) : (
                   <FaMoon
-                    className="text-xl md:text-2xl text-blue-950 cursor-pointer"
+                    className="text-xl md:text-2xl text-blue-950 cursor-pointer hover:text-blue-400 transition"
                     onClick={() => props.setDarkEnabled(true)}
                   />
                 )}
@@ -80,15 +80,16 @@ function NavBar(props: any) {
             </li>
           </ul>
         </div>
-        <div className=" md:hidden">
+        {/* Mobile */}
+        <div className=" md:hidden mx-4">
           {props.darkEnabled ? (
             <FaSun
-              className="text-xl md:text-2xl text-yellow-100  cursor-pointer"
+              className="text-xl md:text-2xl text-yellow-100  cursor-pointer hover:text-orange-300 transition"
               onClick={() => props.setDarkEnabled(false)}
             />
           ) : (
             <FaMoon
-              className="text-xl md:text-2xl text-blue-950 cursor-pointer"
+              className="text-xl md:text-2xl text-blue-950 cursor-pointer hover:text-blue-400 transition"
               onClick={() => props.setDarkEnabled(true)}
             />
           )}

@@ -11,6 +11,7 @@ export default {
         Comfortaa: ["Comfortaa", "cursive"],
         NanumMyeongjo: ["Nanum Myeongjo", "serif"],
         PublicSans: ["Public Sans", "sans-serif"],
+        NotoSerif: ["Noto Serif", "serif"],
       },
     },
   },

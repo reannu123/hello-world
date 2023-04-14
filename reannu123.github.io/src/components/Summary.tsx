@@ -4,29 +4,30 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 function Summary() {
   return (
-    <div className="my-[5vh] md:my-[10vh] items-center justify-center text-center md:flex mx-16">
+    <div className="my-auto items-center justify-center text-center md:flex mx-16">
       <div>
         {/* mobile */}
         <h1 className="font-Comfortaa font-bold text-center text-xl  mb-2 md:hidden text-teal-800 dark:text-teal-300">
           Reannu Instrella
         </h1>
-        <h2 className="font-PublicSans font-bold mb-6 md:hidden ">
+        <h2 className="font-PublicSans font-bold mb-6 md:hidden text-teal-600 text-sm">
           Student Software Developer
         </h2>
       </div>
 
       <div>
-        <div className="mx-auto h-40 w-40 md:h-80 md:w-80 bg-teal-500 dark:bg-teal-100 bg-opacity-30 rounded-full flex items-center justify-center">
+        <div className="mx-auto h-40 w-40 md:h-60 md:w-60 lg:h-80 lg:w-80 bg-teal-500 dark:bg-teal-100 bg-opacity-30 rounded-full flex items-center justify-center">
           <img
             src={profile}
-            className="mx-auto rounded-full h-36 w-36 md:h-72 md:w-72"
+            className="mx-auto rounded-full h-36 w-36 md:h-52 md:w-52 lg:h-72 lg:w-72"
             alt="Summary"
           />
         </div>
-        <h1 className="font-Comfortaa font-bold text-center text-teal-800 dark:text-teal-300 max-md:hidden text-4xl mb-4 mt-8">
+        {/* desktop */}
+        <h1 className="font-Comfortaa font-bold text-center text-teal-800 dark:text-teal-300 max-md:hidden text-4xl mb-4 mt-8 lg:mx-[5vw]">
           Reannu Instrella
         </h1>
-        <h2 className="max-md:hidden font-PublicSans font-bold mb-8">
+        <h2 className="max-md:hidden font-PublicSans font-bold mb-8 text-teal-600 text-xl">
           Student Software Developer
         </h2>
         <div className="max-md:hidden flex flex-row justify-around md:justify-evenly space-x-4">
@@ -45,7 +46,7 @@ function Summary() {
         </div>
       </div>
       <div>
-        <p className="font-NanumMyeongjo font-bold text-sm md:text-lg text-center md:ml-12 md:px-8 py-8 max-w-2xl">
+        <p className="font-NotoSerif text-sm md:text-xl xl:text-2xl text-center md:ml-12 lg:ml-[10vw] md:px-8 py-8 max-w-2xl">
           A motivated student developer with a passion for learning new
           technologies. Currently completing Bachelor's Degree in Computer
           Science at the University of the Philippines Diliman. Has experience
