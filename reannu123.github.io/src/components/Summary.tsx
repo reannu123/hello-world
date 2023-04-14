@@ -6,7 +6,8 @@ function Summary() {
   return (
     <div className="my-[5vh] md:my-[10vh] items-center justify-center text-center md:flex mx-16">
       <div>
-        <h1 className="font-Comfortaa font-bold text-center text-xl  mb-2 md:hidden ">
+        {/* mobile */}
+        <h1 className="font-Comfortaa font-bold text-center text-xl  mb-2 md:hidden text-teal-800 dark:text-teal-300">
           Reannu Instrella
         </h1>
         <h2 className="font-PublicSans font-bold mb-6 md:hidden ">
@@ -15,14 +16,14 @@ function Summary() {
       </div>
 
       <div>
-        <div className="mx-auto h-40 w-40 md:h-80 md:w-80 bg-teal-500 bg-opacity-30 rounded-full flex items-center justify-center">
+        <div className="mx-auto h-40 w-40 md:h-80 md:w-80 bg-teal-500 dark:bg-teal-100 bg-opacity-30 rounded-full flex items-center justify-center">
           <img
             src={profile}
             className="mx-auto rounded-full h-36 w-36 md:h-72 md:w-72"
             alt="Summary"
           />
         </div>
-        <h1 className="font-Comfortaa font-bold text-center text-teal-900 max-md:hidden md:text-4xl  mt-8">
+        <h1 className="font-Comfortaa font-bold text-center text-teal-800 dark:text-teal-300 max-md:hidden text-4xl mb-4 mt-8">
           Reannu Instrella
         </h1>
         <h2 className="max-md:hidden font-PublicSans font-bold mb-8">
@@ -44,7 +45,7 @@ function Summary() {
         </div>
       </div>
       <div>
-        <p className="font-NanumMyeongjo text-sm md:text-base text-center md:ml-12 md:px-8 py-8 max-w-2xl">
+        <p className="font-NanumMyeongjo font-bold text-sm md:text-lg text-center md:ml-12 md:px-8 py-8 max-w-2xl">
           A motivated student developer with a passion for learning new
           technologies. Currently completing Bachelor's Degree in Computer
           Science at the University of the Philippines Diliman. Has experience

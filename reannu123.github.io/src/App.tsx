@@ -6,14 +6,14 @@ import Education from "./components/Education";
 import Hobbies from "./components/Hobbies";
 import Projects from "./components/Projects";
 import NavBar from "./components/NavBar";
+import useDarkMode from "./hooks/useDarkMode";
 
 function App() {
-  const [isDark, setIsDark] = useState(false);
-  const [currentScreen, setCurrentScreen] = useState(<Summary />);
+  const [darkEnabled, setDarkEnabled] = useDarkMode();
   return (
-    <div className="sh-screen w-full ">
+    <div className="sh-screen w-full dark:bg-gray-950 dark:text-gray-200  transition-all duration-100">
       {/* Navbar */}
-      <NavBar setCurrentScreen={setCurrentScreen} />
+      <NavBar setDarkEnabled={setDarkEnabled} darkEnabled={darkEnabled} />
       {/* Main */}
       <div className="flex flex-col items-center justify-center">
         <section id="Summary" className="scroll-pt-36 w-full min-h-screen ">
