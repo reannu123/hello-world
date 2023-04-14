@@ -18,31 +18,31 @@ function App() {
       <div className="flex flex-col items-center justify-center dark:text-gray-100">
         <section
           id="Summary"
-          className=" w-full min-h-[90vh] flex justify-center items-center text-center"
+          className=" w-full min-h-[85vh] mb-[10vh] flex justify-center items-center text-center"
         >
           <Summary />
         </section>
         <section
           id="Skills"
-          className="w-full min-h-[90vh] flex-col justify-center items-center text-center"
+          className="w-full min-h-[90vh]  flex-col justify-center items-center text-center"
         >
           <Skills />
         </section>
         <section
           id="Education"
-          className="w-full min-h-[90vh]  flex-col justify-center items-center text-center"
+          className="w-full min-h-[90vh]  mt-[10vh] flex-col justify-center items-center text-center"
         >
           <Education />
         </section>
         <section
           id="Projects"
-          className="w-full min-h-[90vh]  flex-col justify-center items-center text-center"
+          className="w-full min-h-[90vh]  mt-[10vh] flex-col justify-center items-center text-center"
         >
           <Projects />
         </section>
         <section
           id="Others"
-          className="w-full min-h-[90vh] flex-col justify-center items-center text-center"
+          className="w-full min-h-[90vh] mt-[10vh] flex-col justify-center items-center text-center"
         >
           <Hobbies />
         </section>
