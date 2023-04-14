@@ -1,6 +1,6 @@
 import React from "react";
 import profile from "../assets/profile-square.jpg";
-import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa";
 
 function Summary() {
   return (
@@ -43,6 +43,9 @@ function Summary() {
           <a href="https://ph.linkedin.com/in/reannu-instrella-a64457139">
             <FaLinkedin className="text-3xl text-teal-500 hover:text-opacity-50 transition-all" />
           </a>
+          <a href="mailto:reannumon123@gmail.com">
+            <FaEnvelope className="text-3xl text-teal-400 hover:text-opacity-50 transition-all" />
+          </a>
         </div>
       </div>
       <div>
@@ -67,6 +70,9 @@ function Summary() {
           </a>
           <a href="https://ph.linkedin.com/in/reannu-instrella-a64457139">
             <FaLinkedin className="text-3xl text-teal-500 hover:text-opacity-50 transition-all" />
+          </a>
+          <a href="mailto:reannumon123@gmail.com">
+            <FaEnvelope className="text-3xl text-teal-400 hover:text-opacity-50 transition-all" />
           </a>
         </div>
       </div>
