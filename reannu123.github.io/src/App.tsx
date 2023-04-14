@@ -16,34 +16,19 @@ function App() {
       <NavBar setCurrentScreen={setCurrentScreen} />
       {/* Main */}
       <div className="flex flex-col items-center justify-center">
-        <section
-          id="Summary"
-          className="scroll-pt-36 w-full h-auto bg-cyan-600 "
-        >
+        <section id="Summary" className="scroll-pt-36 w-full h-auto">
           <Summary />
         </section>
-        <section
-          id="Skills"
-          className="scroll-pt-36 w-full h-screen text-center bg-cyan-500"
-        >
+        <section id="Skills" className="w-full h-screen text-center">
           <Skills />
         </section>
-        <section
-          id="Education"
-          className="scroll-pt-36 w-full h-screen text-center bg-cyan-400"
-        >
+        <section id="Education" className="w-full h-screen text-center">
           <Education />
         </section>
-        <section
-          id="Projects"
-          className="scroll-pt-36 w-full h-screen text-center bg-cyan-300"
-        >
+        <section id="Projects" className="w-full h-screen text-center">
           <Projects />
         </section>
-        <section
-          id="Others"
-          className="scroll-pt-36 w-full h-screen text-center bg-cyan-300"
-        >
+        <section id="Others" className="w-full h-screen text-center">
           <Hobbies />
         </section>
       </div>

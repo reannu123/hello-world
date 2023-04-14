@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   return (
     <>
-      <h1 className="font-bold text-2xl md:text-4xl lg:text-5xl font-mono w-auto sm:text-center">
+      <h1 className="font-bold text-2xl md:text-4xl lg:text-5xl w-auto sm:text-center">
         Projects
       </h1>
       <p className="text-center px-8">

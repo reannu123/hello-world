@@ -5,14 +5,19 @@
 html {
   scroll-behavior: smooth;
 }
-/* For screens smaller than 640px */
-@media (max-width: 666px) {
+
+/* Media queries for scroll padding  */
+/* @media (max-width: 421px) {
+  html {
+    scroll-padding-top: 12rem;
+  }
+}
+@media (min-width: 422px) and (max-width: 666px) {
   html {
     scroll-padding-top: 9rem;
   }
 }
 
-/* For screens larger than 640px */
 @media (min-width: 667px) and( max-width: 1004px) {
   html {
     scroll-padding-top: 6.5rem;
@@ -23,7 +28,7 @@ html {
   html {
     scroll-padding-top: 4.5rem;
   }
-}
+} */
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

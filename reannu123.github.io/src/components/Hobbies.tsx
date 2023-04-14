@@ -3,7 +3,7 @@ import React from "react";
 function Hobbies() {
   return (
     <>
-      <h1 className="font-bold text-2xl md:text-4xl lg:text-5xl font-mono w-auto sm:text-center">
+      <h1 className="font-bold text-2xl md:text-4xl lg:text-5xl w-auto sm:text-center">
         Hobbies
       </h1>
       <p className="text-center px-8">My hobbies include:</p>
