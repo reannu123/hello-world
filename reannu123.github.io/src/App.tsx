@@ -18,7 +18,7 @@ function App() {
       <div className="flex flex-col items-center justify-center dark:text-gray-100">
         <section
           id="Summary"
-          className=" w-full min-h-[85vh] mb-[10vh] flex justify-center items-center text-center"
+          className=" w-full min-h-[80vh] mb-[10vh] flex justify-center items-center text-center"
         >
           <Summary />
         </section>
