@@ -9,11 +9,12 @@ html {
 }
 
 /* Media queries for scroll padding  */
-/* @media (max-width: 421px) {
+/* @media (min-width: 768px) {
   html {
     scroll-padding-top: 12rem;
   }
-}
+}  */
+/* 
 @media (min-width: 422px) and (max-width: 666px) {
   html {
     scroll-padding-top: 9rem;

@@ -20,14 +20,14 @@ function NavBar(props: any) {
                 className="min-h-[30px] min-w-[30px] max-h-8 max-w-8 rounded-full"
               />
             </div>
-            <span className="font-medium font-Comfortaa text-base md:text-2xl w-auto dark:text-gray-100">
+            <span className="font-medium font-Comfortaa text-base md:text-xl lg:text-2xl w-auto dark:text-gray-100">
               Reannu Instrella
             </span>
           </div>
         </a>
 
         <div className=" hidden w-full md:block md:w-auto " id="navbar-default">
-          <ul className="font-medium flex flex-wrap  items-center justify-between mx-8 text-sm lg:text-xl lg:space-x-3">
+          <ul className="font-medium flex flex-wrap  items-center justify-between mx-8 md:space-x-3 text-sm lg:text-xl lg:space-x-3">
             <li>
               <a href="#Summary">
                 <div className="block py-2  px-2 rounded  bg-gradient-to-l from-teal-300 via-teal-500 to-teal-600  bg-size-200 hover:bg-right hover:text-gray-900  hover:cursor-pointer  dark:text-gray-100 dark:hover:text-gray-900 transition-all ">
