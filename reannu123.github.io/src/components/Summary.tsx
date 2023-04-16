@@ -18,7 +18,7 @@ function Summary() {
       </div>
 
       <div>
-        <div className="mx-auto h-40 w-40 md:h-[24vh] md:w-[24vh] lg:max-h-80 lg:max-w-80 bg-teal-500 dark:bg-teal-100 bg-opacity-30 rounded-full flex items-center justify-center">
+        <div className="mx-auto h-40 w-40 md:h-[24vh] md:w-[24vh] lg:max-h-80 lg:max-w-80 bg-teal-500 dark:bg-teal-100 bg-opacity-30 rounded-full flex items-center justify-center  transition">
           <img
             src={profile}
             className="mx-auto rounded-full h-36 w-36 md:h-[22vh] md:w-[22vh] lg:max-h-72 lg:max-w-72"
