@@ -10,7 +10,7 @@ import { FaMoon, FaSun } from "react-icons/fa";
 
 function NavBar(props: any) {
   return (
-    <header className=" sticky bg-gray-100 dark:bg-gray-900 top-0  flex select-none h-16 md:h-[10vh] min-h-[4rem] max-h-[10vh] duration-300">
+    <header className=" sticky bg-gray-100 dark:bg-gray-900 top-0  flex select-none h-16 md:h-[10vh] min-h-[4rem] max-h-[10vh] transition z-10">
       <nav className="flex-wrap w-full  flex items-center justify-between p-2 ">
         <a href="https://github.com/reannu123">
           <div className=" flex flex-row space-x-4 items-center justify-center mx-4 whitespace-nowrap">

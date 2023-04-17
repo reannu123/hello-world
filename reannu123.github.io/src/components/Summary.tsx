@@ -7,7 +7,7 @@ import { SiGmail } from "react-icons/si";
 function Summary() {
   return (
     <div className="my-auto items-center justify-center text-center md:flex mx-16">
-      <div>
+      <div className="md:hidden">
         {/* mobile */}
         <h1 className="font-Comfortaa font-bold text-center text-xl  mb-2 md:hidden text-teal-800 dark:text-teal-300">
           Reannu Instrella
@@ -37,16 +37,16 @@ function Summary() {
             href="
             https://www.facebook.com/Reannu.Emmanuel.Lubiano.Instrella/"
           >
-            <FaFacebook className="md:text-[8vh] lg:text-3xl text-teal-700 hover:text-opacity-50 transition-all" />
+            <FaFacebook className="md:text-[8vh] lg:text-3xl text-teal-600   dark:text-teal-600 hover:text-opacity-50 dark:hover:text-opacity-50 transition-all" />
           </a>
           <a href="https://github.com/reannu123">
-            <FaGithub className="md:text-[8vh] lg:text-3xl text-teal-900 hover:text-opacity-50 marker:transition-all" />
+            <FaGithub className="md:text-[8vh] lg:text-3xl text-teal-800 dark:text-teal-800 hover:text-opacity-50  dark:hover:text-opacity-50 marker:transition-all" />
           </a>
           <a href="https://ph.linkedin.com/in/reannu-instrella-a64457139">
-            <FaLinkedin className="md:text-[8vh] lg:text-3xl text-teal-500 hover:text-opacity-50 transition-all" />
+            <FaLinkedin className="md:text-[8vh] lg:text-3xl text-teal-500  dark:text-teal-500 hover:text-opacity-50  dark:hover:text-opacity-50 ransition-all" />
           </a>
           <a href="mailto:reannumon123@gmail.com">
-            <SiGmail className="md:text-[8vh] lg:text-3xl text-teal-400 hover:text-opacity-50 transition-all" />
+            <SiGmail className="md:text-[8vh] lg:text-3xl text-teal-600 dark:text-teal-600 hover:text-opacity-50  dark:hover:text-opacity-50 transition-all" />
           </a>
         </div>
       </div>
@@ -65,16 +65,16 @@ function Summary() {
             href="
             https://www.facebook.com/Reannu.Emmanuel.Lubiano.Instrella/"
           >
-            <FaFacebook className="text-3xl text-teal-700 hover:text-opacity-50 transition-all" />
+            <FaFacebook className="text-3xl text-teal-600   dark:text-teal-600 hover:text-opacity-50 dark:hover:text-opacity-50 transition-all" />
           </a>
           <a href="https://github.com/reannu123">
-            <FaGithub className="text-3xl text-teal-900 hover:text-opacity-50 marker:transition-all" />
+            <FaGithub className="text-3xl text-teal-800 dark:text-teal-800 hover:text-opacity-50  dark:hover:text-opacity-50 marker:transition-all" />
           </a>
           <a href="https://ph.linkedin.com/in/reannu-instrella-a64457139">
-            <FaLinkedin className="text-3xl text-teal-500 hover:text-opacity-50 transition-all" />
+            <FaLinkedin className="text-3xl text-teal-500  dark:text-teal-500 hover:text-opacity-50  dark:hover:text-opacity-50 ransition-all" />
           </a>
           <a href="mailto:reannumon123@gmail.com">
-            <SiGmail className="text-3xl text-teal-400 hover:text-opacity-50 transition-all" />
+            <SiGmail className="text-3xl text-teal-600 dark:text-teal-600 hover:text-opacity-50  dark:hover:text-opacity-50 transition-all" />
           </a>
         </div>
       </div>
