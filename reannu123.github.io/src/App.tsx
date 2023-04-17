@@ -22,26 +22,36 @@ function App() {
         >
           <Summary />
         </section>
+
         <div className="w-full h-[10vh] bg-gray-100 dark:bg-gray-900 transition" />
+
         <section
           id="Skills"
           className="w-full min-h-[85vh] md:min-h-[90vh] mb-[10vh] flex justify-center items-center text-center  dark:bg-gray-800 transition"
         >
           <Skills />
         </section>
-        <div className="w-full h-[10vh]" />
+
+        <div className="w-full h-[10vh] bg-gray-100 dark:bg-gray-900 transition" />
+
         <section
           id="Education"
           className="w-full min-h-[85vh] md:min-h-[90vh] mb-[10vh] flex justify-center items-center text-center  dark:bg-gray-800 transition"
         >
           <Education />
         </section>
+
+        <div className="w-full h-[10vh] bg-gray-100 dark:bg-gray-900 transition" />
+
         <section
           id="Projects"
           className="w-full min-h-[85vh] md:min-h-[90vh] mb-[10vh] flex justify-center items-center text-center  dark:bg-gray-800 transition"
         >
           <Projects />
         </section>
+
+        <div className="w-full h-[10vh] bg-gray-100 dark:bg-gray-900 transition" />
+
         <section
           id="Others"
           className="w-full min-h-[85vh] md:min-h-[90vh] mb-[10vh] flex justify-center items-center text-center  dark:bg-gray-800 transition"
