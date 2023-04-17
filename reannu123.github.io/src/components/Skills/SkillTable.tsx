@@ -127,7 +127,7 @@ function SkillTable() {
                 rel="noreferrer"
                 className="md:hidden flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-100 rounded-3xl h-16 w-16 hover:scale-150 transition-all shadow-xl group"
               >
-                <span className="font-Comfortaa absolute  text-xs  w-auto p-2 m-2 rounded-md shadow-md text-white bg-teal-800 transition-all origin-bottom scale-0 group-hover:scale-90  z-10 delay-100 whitespace-nowrap">
+                <span className="font-Comfortaa absolute  text-xs  w-auto p-2 m-2 rounded-md shadow-md text-white bg-teal-800 transition-all opacity-0 group-hover:opacity-100  z-10 whitespace-nowrap">
                   {skill.name}
                 </span>
                 {skill.logo ? (
@@ -143,7 +143,7 @@ function SkillTable() {
                 rel="noreferrer"
                 className="max-md:hidden flex flex-col items-center justify-center m-4 p-1 bg-teal-100 rounded-3xl h-24 w-24 hover:scale-150 transition-all shadow-xl hover:shadow-2xl group"
               >
-                <span className="absolute font-Comfortaa w-auto p-2 m-2  rounded-md text-white bg-teal-800 transition-all opacity-0 group-hover:opacity-100 z-10 whitespace-nowrap">
+                <span className="absolute font-Comfortaa text-base w-auto p-2 m-2  rounded-md text-white bg-teal-800 transition-all opacity-0 group-hover:opacity-100 z-10 whitespace-nowrap">
                   {skill.name}
                 </span>
                 {skill.logo ? (
