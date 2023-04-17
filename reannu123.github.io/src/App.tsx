@@ -52,12 +52,12 @@ function App() {
 
         <div className="w-full h-[10vh] bg-gray-100 dark:bg-gray-900 transition" />
 
-        <section
+        {/* <section
           id="Others"
           className="w-full min-h-[85vh] md:min-h-[90vh] mb-[10vh] flex justify-center items-center text-center  dark:bg-gray-800 transition"
         >
           <Hobbies />
-        </section>
+        </section> */}
       </div>
     </div>
   );

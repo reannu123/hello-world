@@ -9,7 +9,7 @@ function Summary() {
     <div className="my-auto items-center justify-center text-center md:flex mx-16">
       <div className="md:hidden">
         {/* mobile */}
-        <h1 className="font-Comfortaa font-bold text-center text-xl  mb-2 md:hidden text-teal-800 dark:text-teal-300">
+        <h1 className="font-Comfortaa font-bold text-center text-xl  mb-2 md:hidden text-teal-800 dark:text-teal-300 drop-shadow-lg">
           Reannu Instrella
         </h1>
         <h2 className="font-PublicSans font-bold mb-6 md:hidden text-teal-600 text-sm">
@@ -26,7 +26,7 @@ function Summary() {
           />
         </div>
         {/* desktop */}
-        <h1 className="font-Comfortaa font-bold text-center text-teal-800 dark:text-teal-300 max-md:hidden md:text-[6vh] md:whitespace-nowrap lg:text-4xl mb-2 mt-4 lg:mb-4 lg:mt-8 lg:mx-[5vw]">
+        <h1 className="font-Comfortaa font-bold text-center text-teal-800 dark:text-teal-300 max-md:hidden md:text-[6vh] md:whitespace-nowrap lg:text-4xl mb-2 mt-4 lg:mb-4 lg:mt-8 lg:mx-[5vw] drop-shadow-lg">
           Reannu Instrella
         </h1>
         <h2 className="max-md:hidden font-PublicSans font-bold mb-4 lg:mb-8 text-teal-600 md:text-[4vh] md:whitespace-nowrap lg:text-xl">
@@ -51,7 +51,7 @@ function Summary() {
         </div>
       </div>
       <div>
-        <p className="font-NotoSerif text-sm md:text-[4vh] xl:text-2xl text-center md:ml-12 md:leading-[5vh] lg:ml-[10vw] md:px-8 py-8 max-w-2xl">
+        <p className="font-NotoSerif text-sm md:text-[4vh] xl:text-3xl text-center md:ml-12 md:leading-[5vh] lg:ml-[10vw] md:px-8 py-8 max-w-2xl">
           A motivated student developer with a passion for learning new
           technologies. Currently completing Bachelor's Degree in Computer
           Science at the University of the Philippines Diliman. Has experience
