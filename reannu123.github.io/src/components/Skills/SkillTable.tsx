@@ -110,6 +110,11 @@ function SkillTable() {
       logo: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
       url: "https://pages.github.com/",
     },
+    {
+      name: "Firebase",
+      logo: "https://cdn.worldvectorlogo.com/logos/firebase-1.svg",
+      url: "https://firebase.google.com/",
+    },
   ];
 
   return (
