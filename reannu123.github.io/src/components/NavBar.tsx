@@ -30,7 +30,7 @@ function NavBar(props: any) {
           <ul className="font-medium flex flex-wrap  items-center justify-between mx-8 md:space-x-3 text-sm lg:text-xl lg:space-x-3">
             <li>
               <a
-                href="src/assets/Reannu_Instrella_Resume.pdf"
+                href="Reannu_Instrella_Resume.pdf"
                 download={"Reannu_Instrella_Resume"}
               >
                 <div className="block py-2  px-3 rounded-lg  bg-gradient-to-l from-teal-300 via-teal-500 to-teal-600  bg-size-200 hover:bg-right hover:text-gray-900  hover:cursor-pointer  dark:text-gray-100 dark:hover:text-gray-900 transition-all ">
@@ -92,7 +92,8 @@ function NavBar(props: any) {
         </div>
         {/* Mobile */}
         <a
-          href="src/assets/Reannu_Instrella_Resume.pdf"
+          className="md:hidden"
+          href="Reannu_Instrella_Resume.pdf"
           download={"Reannu_Instrella_Resume"}
         >
           <div className="md:hidden mx-4 block py-2  px-3 rounded-lg  bg-gradient-to-l from-teal-300 via-teal-500 to-teal-600  bg-size-200 hover:bg-right hover:text-gray-900  hover:cursor-pointer  dark:text-gray-100 dark:hover:text-gray-900 transition-all ">
