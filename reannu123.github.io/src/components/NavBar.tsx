@@ -95,7 +95,7 @@ function NavBar(props: any) {
           href="src/assets/Reannu_Instrella_Resume.pdf"
           download={"Reannu_Instrella_Resume"}
         >
-          <div className="block py-2  px-3 rounded-lg  bg-gradient-to-l from-teal-300 via-teal-500 to-teal-600  bg-size-200 hover:bg-right hover:text-gray-900  hover:cursor-pointer  dark:text-gray-100 dark:hover:text-gray-900 transition-all ">
+          <div className="md:hidden mx-4 block py-2  px-3 rounded-lg  bg-gradient-to-l from-teal-300 via-teal-500 to-teal-600  bg-size-200 hover:bg-right hover:text-gray-900  hover:cursor-pointer  dark:text-gray-100 dark:hover:text-gray-900 transition-all ">
             Resume
           </div>
         </a>
