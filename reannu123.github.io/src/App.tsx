@@ -27,7 +27,7 @@ function App() {
 
         <section
           id="Skills"
-          className="w-full min-h-[85vh] md:min-h-[90vh] mb-[10vh] flex justify-center items-center text-center  dark:bg-gray-800 transition"
+          className="w-full min-h-[85vh] md:min-h-[90vh]  flex justify-center items-center text-center  dark:bg-gray-800 transition"
         >
           <Skills />
         </section>
@@ -36,7 +36,7 @@ function App() {
 
         <section
           id="Education"
-          className="w-full min-h-[85vh] md:min-h-[90vh] mb-[10vh] flex justify-center items-center text-center  dark:bg-gray-800 transition"
+          className="w-full min-h-[85vh] md:min-h-[90vh]  flex justify-center items-center text-center  dark:bg-gray-800 transition"
         >
           <Education />
         </section>
@@ -45,7 +45,7 @@ function App() {
 
         <section
           id="Projects"
-          className="w-full min-h-[85vh] md:min-h-[90vh] mb-[10vh] flex justify-center items-center text-center  dark:bg-gray-800 transition"
+          className="w-full min-h-[85vh] md:min-h-[90vh]  flex justify-center items-center text-center  dark:bg-gray-800 transition"
         >
           <Projects />
         </section>
