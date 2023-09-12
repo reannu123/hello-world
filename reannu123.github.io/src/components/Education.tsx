@@ -18,8 +18,9 @@ function Education() {
       </div>
       <div className="mb-[5vh] mt-4">
         <p className="text-center px-8 text-xl lg:text-4xl">
-          I am currently studying at the University of the Philippines Diliman.
-          I am currently in my 4th year and will be graduating in July.
+          Graduated Cum Laude from the University of the Philippines Diliman
+          with a Bachelor's Degree in Computer Science and as a DOST-SEI Merit
+          Scholar. <br />
         </p>
       </div>
     </div>

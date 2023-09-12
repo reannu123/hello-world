@@ -19,15 +19,55 @@ function Projects() {
       <div className="mb-[5vh] mt-4">
         <p className="text-center px-8">
           Some of my development projects include:
-        </p>
-        <ul className="list-none list-inside">
-          <li>NSNP Simulation</li>
-          <li>BoredApp</li>
-          <li>Trand Tracker</li>
-          <li>Plannercord</li>
-          <li>Color Lock</li>
-          <li>Flappy Physics</li>
-        </ul>
+        </p>{" "}
+        <a
+          href={"https://nsnp.snapse.website"}
+          target="_blank"
+          rel="noreferrer"
+          className="max-md:hidden font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
+        >
+          NSNP Simulator
+        </a>
+        <a
+          href={"https://reannuinstrella.me/rps-firebase/"}
+          target="_blank"
+          rel="noreferrer"
+          className="max-md:hidden font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
+        >
+          Rock Paper Scissors!
+        </a>
+        <a
+          href={"https://reannuinstrella.me/BoredApp/"}
+          target="_blank"
+          rel="noreferrer"
+          className="max-md:hidden font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
+        >
+          BoredApp
+        </a>
+        <a
+          href={"https://github.com/reannu123/TrendTracker-frontend"}
+          target="_blank"
+          rel="noreferrer"
+          className="max-md:hidden font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
+        >
+          TrendTracker
+        </a>
+        <a
+          href={"https://github.com/Plannercord-Bot/Plannercord-Bot"}
+          target="_blank"
+          rel="noreferrer"
+          className="max-md:hidden font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
+        >
+          Plannercord
+        </a>
+        <a
+          href={"https://github.com/reannu123/FlappyPhysics"}
+          target="_blank"
+          rel="noreferrer"
+          className="max-md:hidden font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
+        >
+          Flappy Physics
+        </a>
       </div>
     </div>
   );

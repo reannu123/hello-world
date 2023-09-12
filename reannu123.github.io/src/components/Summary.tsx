@@ -52,13 +52,17 @@ function Summary() {
       </div>
       <div>
         <p className="font-NotoSerif text-sm sm:text-[3vw] md:text-[2vh] xl:text-3xl text-center md:ml-12 md:leading-[5vh] lg:ml-[10vw] md:px-8 py-8 max-w-2xl">
-          A motivated student developer with a passion for learning new
-          technologies. Currently completing Bachelor's Degree in Computer
-          Science at the University of the Philippines Diliman. Has experience
-          in different languages such as JavaScript & TypeScript, Python, C,
-          C++, C#, and Java. Has experience in different frameworks such as
-          React, NodeJS, and Express as well as databases such as MongoDB and
-          MySQL, and more.
+          A passionate and motivated individial with a passion for learning new
+          technologies. Graduated Cum Laude from the University of the
+          Philippines Diliman with a Bachelor's Degree in Computer Science. Has
+          experience in full-stack development and server management locally and
+          on the cloud. Has used different languages such as JavaScript,
+          TypeScript, Python, C, as well as web development frameworks like
+          React, Express, and other web service technologies like reverse
+          proxying and tunneling. Developed several projects such as
+          NSNP-Simulator, RPSuper, and maintaining servers locally and in the
+          cloud for different purposes and projects such as file serving and
+          backend for web applications.
         </p>
         <div className="md:hidden flex flex-row justify-around md:justify-evenly space-x-4">
           <a
