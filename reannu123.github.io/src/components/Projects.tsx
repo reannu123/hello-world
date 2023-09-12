@@ -24,7 +24,7 @@ function Projects() {
           href={"https://nsnp.snapse.website"}
           target="_blank"
           rel="noreferrer"
-          className="max-md:hidden font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
+          className=" font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
         >
           NSNP Simulator
         </a>
@@ -32,7 +32,7 @@ function Projects() {
           href={"https://reannuinstrella.me/rps-firebase/"}
           target="_blank"
           rel="noreferrer"
-          className="max-md:hidden font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
+          className=" font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
         >
           Rock Paper Scissors!
         </a>
@@ -40,7 +40,7 @@ function Projects() {
           href={"https://reannuinstrella.me/BoredApp/"}
           target="_blank"
           rel="noreferrer"
-          className="max-md:hidden font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
+          className=" font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
         >
           BoredApp
         </a>
@@ -48,7 +48,7 @@ function Projects() {
           href={"https://github.com/reannu123/TrendTracker-frontend"}
           target="_blank"
           rel="noreferrer"
-          className="max-md:hidden font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
+          className=" font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
         >
           TrendTracker
         </a>
@@ -56,7 +56,7 @@ function Projects() {
           href={"https://github.com/Plannercord-Bot/Plannercord-Bot"}
           target="_blank"
           rel="noreferrer"
-          className="max-md:hidden font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
+          className=" font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
         >
           Plannercord
         </a>
@@ -64,7 +64,7 @@ function Projects() {
           href={"https://github.com/reannu123/FlappyPhysics"}
           target="_blank"
           rel="noreferrer"
-          className="max-md:hidden font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
+          className=" font-Comfortaa my-4 text-xl text-white flex flex-col items-center justify-center mx-1 my-1 p-1 bg-teal-700 rounded-3xl h-16 w-auto hover:scale-150 hover:bg-teal-500 transition-all shadow-xl"
         >
           Flappy Physics
         </a>
