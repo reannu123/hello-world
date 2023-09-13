@@ -13,7 +13,7 @@ function Summary() {
           Reannu Instrella
         </h1>
         <h2 className="font-PublicSans font-bold mb-6 md:hidden text-teal-600 text-sm">
-          Student Software Developer
+          Software Developer
         </h2>
       </div>
 
@@ -30,7 +30,7 @@ function Summary() {
           Reannu Instrella
         </h1>
         <h2 className="max-md:hidden font-PublicSans font-bold mb-4 lg:mb-8 text-teal-600 md:text-[2vh] md:whitespace-nowrap lg:text-xl">
-          Student Software Developer
+          Software Developer
         </h2>
         <div className="max-md:hidden flex flex-row justify-around md:justify-evenly space-x-4">
           <a
